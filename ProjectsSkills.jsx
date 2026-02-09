@@ -6,10 +6,14 @@ const ProjectsSkills = () => {
       <Text style={styles.title}>Projects / Skills</Text>
 
       <View style={styles.card}>
-      <Text> Joshua's Technical Skills: Windows Troubleshooting, Hardware Troubleshooting, Coding </Text>
-      <Text> For the next project, I hope we take the next step needed for a more complex project.
-             A game would be a cool project to attempt within an app. </Text>
-             </View>
+      <Text> Joshua's Technical Skills:  </Text>
+      <Text> OS Troubleshooting </Text>
+      <Text> Virtualization </Text>
+      <Text> Programming Languages </Text>
+      <Text> </Text>
+      <Text> For the next project, I hope we take the next step to do something more complex.
+             It would be interesting to implement something like a game for a project.  </Text>
+         </View>
 
      </View> 
   )
@@ -25,12 +29,14 @@ const styles = StyleSheet.create({
   },
   title: {
     fontWeight: 'bold' ,
-    fontSize: 18
+    fontSize: 25
   },
     card: {
-    backgroundColor: 'eee',
+    backgroundColor: '#ADD8E6',
     padding: 20,
     borderRadius: 5,
+    width: 400,
+    height: 200,    
     boxShadow: '4px 4px rgba(0,0,0,0.1)'
   }
 i})
