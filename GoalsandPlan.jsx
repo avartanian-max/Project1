@@ -22,9 +22,23 @@ const GoalsandPlan = () => {
 export default GoalsandPlan
 
 const styles = StyleSheet.create({
-    container: {
+  container: {
     flex: 1,
     alignItems: 'center' ,
-    justifyContent: 'center'
-    }
+    justifyContent: 'center' ,
+    },
+  title: {
+    fontWeight: 'bold' ,
+    fontSize: 25 ,
+    },
+  card: {
+    backgroundColor: '#ADD8E6',
+    padding: 20,
+    marginVertical: 10,
+    borderRadius: 5,
+    width: 400,
+    height: 200,
+    boxShadow: '4px 4px rgba(0,0,0,0.1)'
+  }
+
 })
