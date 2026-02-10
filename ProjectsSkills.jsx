@@ -15,6 +15,16 @@ const ProjectsSkills = () => {
              It would be interesting to implement something like a game for a project.  </Text>
          </View>
 
+    <View style={styles.card}>
+      <Text> Alex's Technical/Professional Skills: </Text>
+      <Text> Java </Text>
+      <Text> Python </Text>
+      <Text> Lua </Text>
+      <Text> </Text>
+      <Text> I would like to make a version of that Nintendo brain game, where there are
+             different activities that are fast paced that make you think fast and judge
+            you on accuracy and speed. </Text>
+        </View>      
      </View> 
   )
 }
