@@ -6,7 +6,7 @@ const ProjectsSkills = () => {
       <Text style={styles.title}>Projects / Skills</Text>
 
       <View style={styles.card}>
-      <Text> Joshua's Technical Skills:  </Text>
+      <Text> Joshua's Technical/Professional Skills:  </Text>
       <Text> OS Troubleshooting </Text>
       <Text> Virtualization </Text>
       <Text> Programming Languages </Text>
