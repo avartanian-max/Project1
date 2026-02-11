@@ -8,12 +8,15 @@ const GoalsandPlan = () => {
 
     <View style={styles.card}>
     <Text> Joshua's Learning Goals: </Text>
-    <Text> Learn how to create an app. </Text>
-    <Text> Learn how to solve problems with embedded systems. </Text>
-    <Text> Learn how to use AI to it's best ability. </Text>
-    <Text> </Text>
-    <Text> I believe these goals matter because they should be vital to the other
-                 classes we will be doing in the future. </Text>
+    <Text> Learn how to use everything associated with GitHub. It's important to learn about
+           GitHub because you can use the terminal and web interface to create and
+           manage repositories. </Text>
+    <Text> Learn how to successfully create mobile and desktop apps. This is important because 
+           going through the process of creating apps makes you more knowledgable in presenting
+           them to others.  </Text>
+    <Text> Learn new programming languages involved in application development. I believe it is 
+           important to explore every level of programming languages including ones used in
+           application development.  </Text>
       </View>
 
     <View style={styles.card}>
