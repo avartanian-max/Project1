@@ -27,10 +27,10 @@ const Home = () => {
     <ThemedText>About Page</ThemedText>
     </Link>
     <Link href="/contact" style={styles.link}>
-    <ThemedText>Contact Page</ThemedText>
+    <ThemedText>Student Info</ThemedText>
     </Link>
     <Link href="/profile" style={styles.link}>
-    <ThemedText>Profile Page</ThemedText>
+    <ThemedText>Placeholder</ThemedText>
     </Link>
     </ThemedView>
   )
