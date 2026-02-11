@@ -4,7 +4,7 @@ import React from 'react'
 const GoalsandPlan = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Goals & Plan</Text>
+    <Text style={styles.title}>Goals & Plan</Text>
 
     <View style={styles.card}>
     <Text> Joshua's Learning Goals: </Text>
@@ -14,6 +14,19 @@ const GoalsandPlan = () => {
     <Text> </Text>
     <Text> I believe these goals matter because they should be vital to the other
                  classes we will be doing in the future. </Text>
+      </View>
+
+    <View style={styles.card}>
+    <Text> Alex's Learning Goals: </Text>
+    <Text> To better understand GitHub and be able to navigate and use GitHub better, this is
+           important because it is the industry standard for version control and collaborative
+           work. </Text>
+    <Text> To get a refined enough project to add into my portfolio that showcases my skills
+           and understanding of various skills, this matters because building a impressive
+          portfolio is important in the field. </Text>
+    <Text> To learn how to create more intricate apps with more components such as games, shops,
+           etc. This matters because I always wanted to make a game and a mobile game would be
+           something I could do for a personal project. </Text>
     </View>
    </View> 
   )
@@ -42,3 +55,4 @@ const styles = StyleSheet.create({
   }
 
 })
+
