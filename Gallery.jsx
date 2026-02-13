@@ -1,12 +1,15 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 
 import December2025 from '../assets/img/December2025.jpg' 
+import ACertification from '../assets/img/A+Certification.jpg'
+import NetworkPlus from '../assets/img/Network-1.jpg'  
 
 const Gallery = () => {
   return (
     <View style={{ alignSelf: 'left' }}>
       <Image source={December2025} />
       <Image source={ACertification} />
+      <Image source={NetworkPlus} />
 
       <View style={styles.card} >
         <Text> My siblings & I supporting Sable Bourbon </Text>
@@ -15,6 +18,10 @@ const Gallery = () => {
       <View style={styles.card} >
         <Text> A+ Certification from Junior Year 2019 </Text>
         </View>
+
+      <View style={styles.card} >
+      <Text> Network+ Certification from Senior Year 2020 </Text>
+      </View>
 
     </View>
   )
