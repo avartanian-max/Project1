@@ -4,10 +4,8 @@ import December2025 from '../assets/img/December2025.jpg'
 
 const Gallery = () => {
   return (
-    <View style={styles.container}>
+    <View style={{ alignSelf: 'center' }}>
       <Image source={December2025} />
-
-      <Text style={styles.title}>Gallery</Text>
 
       <View style={styles.card} >
         <Text> My siblings & I supporting Sable Bourbon </Text>
@@ -21,13 +19,9 @@ export default Gallery
 const styles = StyleSheet.create({
     container: {
     flex: 1,
-    alignItems: 'center' ,
-    justifyContent: 'center'
-  },
-
-  title: {
-    fontWeight: 'bold' ,
-    fontSize: 25,
+    alignItems: 'flexstart' ,
+    justifyContent: 'flexstart' ,
+    padding: 10 ,    
   },
 
   card: {
@@ -35,7 +29,7 @@ const styles = StyleSheet.create({
     padding: 20,
     marginVertical: 10,
     borderRadius: 5,
-    width: 150,
+    width: 200,
     height: 100,
     boxShadow: '4px 4px rgba(0,0,0,0.1)'
   }
