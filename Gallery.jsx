@@ -1,9 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View, Image } from 'react-native'
+
+import December2025 from '../assets/img/December2025.jpg' 
 
 const Gallery = () => {
   return (
     <View style={styles.container}>
+      <Image source={December2025} />
+
       <Text style={styles.title}>Gallery</Text>
 
       <View style={styles.card} >
