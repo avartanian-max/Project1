@@ -10,7 +10,7 @@ const Gallery = () => {
       <Text style={styles.title}>Gallery</Text>
 
       <View style={styles.card} >
-        <Text> </Text>
+        <Text> My siblings & I supporting Sable Bourbon </Text>
         </View>
     </View>
   )
@@ -35,8 +35,8 @@ const styles = StyleSheet.create({
     padding: 20,
     marginVertical: 10,
     borderRadius: 5,
-    width: 400,
-    height: 200,
+    width: 150,
+    height: 100,
     boxShadow: '4px 4px rgba(0,0,0,0.1)'
   }
 })
