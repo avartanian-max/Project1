@@ -4,12 +4,18 @@ import December2025 from '../assets/img/December2025.jpg'
 
 const Gallery = () => {
   return (
-    <View style={{ alignSelf: 'center' }}>
+    <View style={{ alignSelf: 'left' }}>
       <Image source={December2025} />
+      <Image source={ACertification} />
 
       <View style={styles.card} >
         <Text> My siblings & I supporting Sable Bourbon </Text>
         </View>
+
+      <View style={styles.card} >
+        <Text> A+ Certification from Junior Year 2019 </Text>
+        </View>
+
     </View>
   )
 }
