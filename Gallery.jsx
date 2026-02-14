@@ -15,11 +15,11 @@ const Gallery = () => {
         <Text> My siblings & I supporting Sable Bourbon </Text>
         </View>
 
-      <View style={styles.card} >
+      <View style={styles.topCenterElement} >
         <Text> A+ Certification from Junior Year 2019 </Text>
         </View>
 
-      <View style={styles.card} >
+      <View style={styles.topBottomElement} >
       <Text> Network+ Certification from Senior Year 2020 </Text>
       </View>
 
@@ -57,5 +57,30 @@ const styles = StyleSheet.create({
      borderRadius: 5,
      height: 150,
      width: 200,
-  },   
+  },
+
+    topCenterElement: {
+    // The child element is positioned relative to its parent container
+    position: 'absolute',
+    top: 155,  // Adjust distance from the top
+    right: 10, // Adjust distance from the right
+    backgroundColor: 'lightblue',
+    padding: 5,
+    borderRadius: 5,
+    height: 130,
+    width: 200,
+  },
+
+   topBottomElement: {
+    // The child element is positioned relative to its parent container
+    position: 'absolute',
+    top: 310,  // Adjust distance from the top
+    right: 10, // Adjust distance from the right
+    backgroundColor: 'lightblue',
+    padding: 5,
+    borderRadius: 5,
+    height: 130,
+    width: 200,
+  },
 })
+
