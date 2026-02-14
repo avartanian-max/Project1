@@ -11,7 +11,7 @@ const Gallery = () => {
       <Image source={ACertification} />
       <Image source={NetworkPlus} />
 
-      <View style={styles.card} >
+      <View style={styles.topRightElement} >
         <Text> My siblings & I supporting Sable Bourbon </Text>
         </View>
 
@@ -45,5 +45,17 @@ const styles = StyleSheet.create({
     width: 200,
     height: 100,
     boxShadow: '4px 4px rgba(0,0,0,0.1)'
-  }
+  },
+
+   topRightElement: {
+    // The child element is positioned relative to its parent container
+     position: 'absolute',
+     top: 2,  // Adjust distance from the top
+     right: 10, // Adjust distance from the right
+     backgroundColor: 'lightblue',
+     padding: 5,
+     borderRadius: 5,
+     height: 150,
+     width: 200,
+  },   
 })
