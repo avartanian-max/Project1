@@ -4,7 +4,7 @@ const ProjectsSkills = () => {
   return (
     <View style ={styles.container}>
       <Text style={styles.title}> Joshua's Technical/Professional Skills </Text>
-      <Text style={styles.title2} >Alex's Technical/Professional Skills </Text>
+      <Text style={styles.title2}> Alex's Technical/Professional Skills </Text>
 
       <View style={styles.card}>
       <Text> OS Troubleshooting </Text>
