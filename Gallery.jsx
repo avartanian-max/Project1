@@ -5,6 +5,7 @@ import ACertification from '../assets/img/A+Certification.jpg'
 import NetworkPlus from '../assets/img/Network-1.jpg'  
 import DarkLogo from '../assets/img/csubdark.jpg' 
 import LightLogo from '../assets/img/csublight.jpg'  
+import AlexandFriends from '../assets/img/AlexandFriends.jpg'  
 
 const Gallery = () => {
   return (
@@ -14,8 +15,10 @@ const Gallery = () => {
       <Image source={NetworkPlus} />
       <Image source={DarkLogo} />
       <Image source={LightLogo} />
+      <Image source={AlexandFriends} />
 
       <View style={styles.topRightElement} >
+        <Text> </Text>
         <Text> My siblings & I supporting Sable Bourbon </Text>
         <Text> </Text>
         <Text> </Text>
@@ -32,13 +35,22 @@ const Gallery = () => {
         </View>
 
       <View style={styles.topMiddleElement} >
+      <Text> </Text>
       <Text> CSUB Dark Logo </Text>
       <Text> </Text>
       <Text> </Text>
       <Text> </Text>
       <Text> </Text>
       <Text> </Text>
-      <Text> CSUB Light Logo</Text>
+      <Text> </Text>
+      <Text> CSUB Light Logo </Text>
+      <Text> </Text>
+      <Text> </Text>
+      <Text> </Text>
+      <Text> </Text>
+      <Text> </Text>
+      <Text> </Text>
+      <Text> Alex & Friends </Text>
       </View>
 
     </View>
@@ -85,7 +97,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'lightblue',
     padding: 5,
     borderRadius: 5,
-    height: 378,
+    height: 373,
     width: 253,
   },
 })
