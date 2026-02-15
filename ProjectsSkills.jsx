@@ -3,7 +3,8 @@ import { StyleSheet, Text, View } from 'react-native'
 const ProjectsSkills = () => {
   return (
     <View style ={styles.container}>
-      <Text style={styles.title}>Projects / Skills</Text>
+      <Text style={styles.title} >Joshua's Technical/Professional SKills </Text>
+      <Text style={styles.title2} >Alex's Technical/Professional SKills </Text>
 
       <View style={styles.card}>
       <Text> Joshua's Technical/Professional Skills:  </Text>
@@ -37,17 +38,26 @@ const styles = StyleSheet.create({
     alignItems: 'center' ,
     justifyContent: 'center'
   },
+
   title: {
     fontWeight: 'bold' ,
-    fontSize: 25
+    fontSize: 20,
+    top: 25,
   },
+
+    title2: {
+    fontWeight: 'bold' ,
+    fontSize: 20,
+    top: 375,
+  },
+
     card: {
     backgroundColor: '#ADD8E6',
-    padding: 20,
-    marginVertical: 10,    
+    padding: 50,
+    marginVertical: 50,    
     borderRadius: 5,
-    width: 400,
-    height: 200,    
+    width: 450,
+    height: 250,    
     boxShadow: '4px 4px rgba(0,0,0,0.1)'
   }
 i})
