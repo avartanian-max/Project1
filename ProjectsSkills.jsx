@@ -3,11 +3,10 @@ import { StyleSheet, Text, View } from 'react-native'
 const ProjectsSkills = () => {
   return (
     <View style ={styles.container}>
-      <Text style={styles.title} >Joshua's Technical/Professional SKills </Text>
-      <Text style={styles.title2} >Alex's Technical/Professional SKills </Text>
+      <Text style={styles.title}> Joshua's Technical/Professional Skills </Text>
+      <Text style={styles.title2} >Alex's Technical/Professional Skills </Text>
 
       <View style={styles.card}>
-      <Text> Joshua's Technical/Professional Skills:  </Text>
       <Text> OS Troubleshooting </Text>
       <Text> Virtualization </Text>
       <Text> Programming Languages </Text>
@@ -17,7 +16,6 @@ const ProjectsSkills = () => {
          </View>
 
     <View style={styles.card}>
-      <Text> Alex's Technical/Professional Skills: </Text>
       <Text> Java </Text>
       <Text> Python </Text>
       <Text> Lua </Text>
