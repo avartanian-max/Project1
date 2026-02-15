@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Image } from 'react-native'
 import December2025 from '../assets/img/December2025.jpg' 
 import ACertification from '../assets/img/A+Certification.jpg'
 import NetworkPlus from '../assets/img/Network-1.jpg'  
+import DarkLogo from '../assets/img/csubdark.jpg' 
 
 const Gallery = () => {
   return (
@@ -10,6 +11,7 @@ const Gallery = () => {
       <Image source={December2025} />
       <Image source={ACertification} />
       <Image source={NetworkPlus} />
+      <Image source={DarkLogo} />
 
       <View style={styles.topRightElement} >
         <Text> My siblings & I supporting Sable Bourbon </Text>
