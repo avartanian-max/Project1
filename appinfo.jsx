@@ -7,7 +7,7 @@ const appInfo = () => {
   return (
     <ThemedView style={styles.container}>
       <ScrollView>
-      <ThemedText style={styles.title}>About the App</ThemedText>
+      <ThemedText style={styles.title}>                          About the App</ThemedText>
 
       
       <View style={styles.card}>
@@ -50,12 +50,12 @@ const appInfo = () => {
 
         <ThemedText style={styles.text}>
           <ThemedText style={styles.bold}>What went well: </ThemedText>
-          Creating the styles and cards went smoothly, allowing us to easily separate information.
+          It was easy knowing what purpose certain lines of code does, I was able to understand what a certain line of code does and how to implement it.
         </ThemedText>
 
         <ThemedText style={styles.text}>
           <ThemedText style={styles.bold}>What was challenging: </ThemedText>
-          Importing the pictures into the gallery was confusing at first, but once I found the right path to the img folder, it was easy after that.
+          The only challenging parts were trying to understand how to implement components that aren't text based such as animations, widgets, InfoRow, Profile badge, etc.
         </ThemedText>
       </View>
       </ScrollView>
