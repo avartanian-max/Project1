@@ -25,7 +25,7 @@ const Gallery = () => {
         <Text> </Text>
         <Text> </Text>
         <Text> </Text>
-        <Text> A+ Certification from Junior Year 2018 </Text>
+        <Text> A+ Certification from Junior Year 2019 </Text>
         <Text> </Text>
         <Text> </Text>
         <Text> </Text>
