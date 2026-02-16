@@ -1,4 +1,12 @@
-
+Student Introduction Application
+By: Alex Vartanian, Joshua Williams
+This app is an introduction to both of us, showcasing information about our skills, goals, future project ideas, and technical skills.
+To start the app download the files and open VS Studio Code and download Expo Go on your mobile device, in the terminal type the command "npx expo start" and scan the QR code and the app will launch
+The Features of the app include
+- Links on the homepage to navigate through the app
+- Stack navigation that allows you to return to your previous page and never get lost in a dead end
+- Text and Icons change based on whether your device is in light or dark mode
+  
 Below are screenshoots of all 6 pages
 <img width="1170" height="2532" alt="Home page" src="https://github.com/user-attachments/assets/66efa29c-8afb-4328-9772-4716cc54e700" />
 <img width="1170" height="2532" alt="About Students page" src="https://github.com/user-attachments/assets/59e7f50d-0f80-4924-b5e7-a197c1fdd497" />
