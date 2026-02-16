@@ -1,0 +1,1 @@
+When imputting the information in two seperate cards there is two much text and the content is going off the screen how and I add support to scroll to view all the information?
