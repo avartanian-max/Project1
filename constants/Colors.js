@@ -3,7 +3,7 @@ export const Colors = {
   warning: "#cc475a",
   
   dark: {
-    text: "#d4d4d4",
+    text: "#fff",
     title: "#fff",
     background: "#252231",
     navBackground: "#201e2b",
@@ -12,8 +12,8 @@ export const Colors = {
     uiBackground: "#2f2b3d",
   },
   light: {
-    text: "#625f72",
-    title: "#201e2b",
+    text: "#000000",
+    title: "#000000",
     background: "#e0dfe8",
     navBackground: "#e8e7ef",
     iconColor: "#686477",
