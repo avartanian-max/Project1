@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 
 import December2025 from '../assets/img/December2025.jpg' 
-import ACertification from '../assets/img/A+Certification.jpg'
+import ACertification from '../assets/img/ACertification.jpg'
 import NetworkPlus from '../assets/img/Network-1.jpg'  
 import DarkLogo from '../assets/img/csubdark.jpg' 
 import LightLogo from '../assets/img/csublight.jpg'  
@@ -102,3 +102,4 @@ const styles = StyleSheet.create({
     width: 253,
   },
 })
+
