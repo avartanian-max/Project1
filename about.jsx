@@ -6,10 +6,7 @@ import ThemedText from '../components/ThemedText'
 const About = () => {
   return (
     <ThemedView style={styles.container}>
-      <ScrollView
-        contentContainerStyle={styles.scrollContent}
-        showsVerticalScrollIndicator={false}
-      >
+      <ScrollView>
         <ThemedText style={styles.title}>About Us</ThemedText>
 
         
