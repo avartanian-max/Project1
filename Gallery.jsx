@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image } from 'react-native'
+import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 
 import December2025 from '../assets/img/December2025.jpg' 
 import ACertification from '../assets/img/A+Certification.jpg'
@@ -10,6 +10,7 @@ import AlexandFriends from '../assets/img/AlexandFriends.jpg'
 const Gallery = () => {
   return (
     <View style={{ alignSelf: 'left' }}>
+        <ScrollView>
       <Image source={December2025} />
       <Image source={ACertification} />
       <Image source={NetworkPlus} />
@@ -52,7 +53,7 @@ const Gallery = () => {
       <Text> </Text>
       <Text> Alex & Friends </Text>
       </View>
-
+    </ScrollView>
     </View>
   )
 }
@@ -101,4 +102,3 @@ const styles = StyleSheet.create({
     width: 253,
   },
 })
-
