@@ -4,7 +4,8 @@ import React from 'react'
 const GoalsandPlan = () => {
   return (
     <View style={styles.container}>
-    <Text style={styles.title}>Goals & Plan</Text>
+    <Text style={styles.title}> Joshua's Goals</Text>
+    <Text style={styles.title2}> Alex's Goals</Text>  
 
     <View style={styles.card}>
     <Text> Joshua's Learning Goals: </Text>
@@ -46,7 +47,15 @@ const styles = StyleSheet.create({
   title: {
     fontWeight: 'bold' ,
     fontSize: 25 ,
+    top: 40, 
     },
+
+    title2: {
+    fontWeight: 'bold' ,
+    fontSize: 20,
+    top: 375,
+  },
+
   card: {
     backgroundColor: '#ADD8E6',
     padding: 20,
