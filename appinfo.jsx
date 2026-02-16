@@ -15,7 +15,7 @@ const appInfo = () => {
 
         <ThemedText style={styles.text}>
           <ThemedText style={styles.bold}>Parts worked on: </ThemedText>
-          Created the home page, about the app page, student info page, and handled navigation between pages
+          Created the home page, about the app page, student info page, and handled navigation between pages, Styling on Goals & Plans
         </ThemedText>
 
         <ThemedText style={styles.text}>
