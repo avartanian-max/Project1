@@ -8,7 +8,6 @@ const GoalsandPlan = () => {
     <Text style={styles.title2}> Alex's Goals</Text>  
 
     <View style={styles.card}>
-    <Text> Joshua's Learning Goals: </Text>
     <Text> Learn how to use everything associated with GitHub. It's important to learn about
            GitHub because you can use the terminal and web interface to create and
            manage repositories. </Text>
@@ -21,7 +20,6 @@ const GoalsandPlan = () => {
       </View>
 
     <View style={styles.card}>
-    <Text> Alex's Learning Goals: </Text>
     <Text> To better understand GitHub and be able to navigate and use GitHub better, this is
            important because it is the industry standard for version control and collaborative
            work. </Text>
