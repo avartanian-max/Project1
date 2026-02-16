@@ -1,36 +1,80 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, View, ScrollView } from 'react-native'
+import ThemedView from '../components/ThemedView'
+import ThemedText from '../components/ThemedText'
 
 const GoalsandPlan = () => {
   return (
-    <View style={styles.container}>
-    <Text style={styles.title}> Joshua's Goals</Text>
-    <Text style={styles.title2}> Alex's Goals</Text>  
+    <ThemedView style={styles.container}>
+      <ScrollView>
+        <ThemedText style={styles.title}>Goals and Future Project Ideas</ThemedText>
 
-    <View style={styles.card}>
-    <Text> Learn how to use everything associated with GitHub. It's important to learn about
-           GitHub because you can use the terminal and web interface to create and
-           manage repositories. </Text>
-    <Text> Learn how to successfully create mobile and desktop apps. This is important because 
-           going through the process of creating apps makes you more knowledgable in presenting
-           them to others.  </Text>
-    <Text> Learn new programming languages involved in application development. I believe it is 
-           important to explore every level of programming languages including ones used in
-           application development.  </Text>
-      </View>
+        
+        <View style={styles.card}>
+          <ThemedText
+            style={{
+              fontSize: 16,
+              fontWeight: 'bold',
+              marginBottom: 10,
+              textAlign: 'center'
+            }}
+          >
+            Joshua's Goals
+          </ThemedText>
 
-    <View style={styles.card}>
-    <Text> To better understand GitHub and be able to navigate and use GitHub better, this is
-           important because it is the industry standard for version control and collaborative
-           work. </Text>
-    <Text> To get a refined enough project to add into my portfolio that showcases my skills
-           and understanding of various skills, this matters because building a impressive
-          portfolio is important in the field. </Text>
-    <Text> To learn how to create more intricate apps with more components such as games, shops,
-           etc. This matters because I always wanted to make a game and a mobile game would be
-           something I could do for a personal project. </Text>
-    </View>
-   </View> 
+          <ThemedText style={styles.text}>
+            Learn how to use everything associated with GitHub. It's important to
+            learn about GitHub because you can use the terminal and web interface
+            to create and manage repositories.
+          </ThemedText>
+
+          <ThemedText style={styles.text}>
+            Learn how to successfully create mobile and desktop apps. This is
+            important because going through the process of creating apps makes
+            you more knowledgeable in presenting them to others.
+          </ThemedText>
+
+          <ThemedText style={styles.text}>
+            Learn new programming languages involved in application development.
+            I believe it is important to explore every level of programming
+            languages, including ones used in application development.
+          </ThemedText>
+        </View>
+
+        
+        <View style={styles.card}>
+          <ThemedText
+            style={{
+              fontSize: 16,
+              fontWeight: 'bold',
+              marginBottom: 10,
+              textAlign: 'center'
+            }}
+          >
+            Alex's Goals
+          </ThemedText>
+
+          <ThemedText style={styles.text}>
+            To better understand GitHub and be able to navigate and use GitHub
+            better. This is important because it is the industry standard for
+            version control and collaborative work.
+          </ThemedText>
+
+          <ThemedText style={styles.text}>
+            To get a refined enough project to add into my portfolio that
+            showcases my skills and understanding of various technologies. This
+            matters because building an impressive portfolio is important in
+            the field.
+          </ThemedText>
+
+          <ThemedText style={styles.text}>
+            To learn how to create more intricate apps with more components such
+            as games, shops, etc. This matters because I always wanted to make a
+            game, and a mobile game would be something I could do as a personal
+            project.
+          </ThemedText>
+        </View>
+      </ScrollView>
+    </ThemedView>
   )
 }
 
@@ -38,31 +82,23 @@ export default GoalsandPlan
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    alignItems: 'center' ,
-    justifyContent: 'center' ,
-    },
-  title: {
-    fontWeight: 'bold' ,
-    fontSize: 25 ,
-    top: 40, 
-    },
-
-    title2: {
-    fontWeight: 'bold' ,
-    fontSize: 20,
-    top: 375,
+    flex: 1
   },
-
+  title: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 16,
+    textAlign: 'center'
+  },
   card: {
-    backgroundColor: '#ADD8E6',
-    padding: 20,
-    marginVertical: 10,
-    borderRadius: 5,
-    width: 400,
-    height: 200,
-    boxShadow: '4px 4px rgba(0,0,0,0.1)'
+    borderWidth: 1,
+    borderRadius: 10,
+    padding: 16,
+    marginBottom: 16,
+    backgroundColor: '#ADD8E6'
+  },
+  text: {
+    marginBottom: 8,
+    lineHeight: 20
   }
-
 })
-
