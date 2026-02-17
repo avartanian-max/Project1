@@ -1,8 +1,8 @@
 {
   "expo": {
-    "scheme": "shelfieapp",
-    "name": "shelfie_app",
-    "slug": "shelfie_app",
+    "scheme": "project1app",
+    "name": "project1_app",
+    "slug": "project1_app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
